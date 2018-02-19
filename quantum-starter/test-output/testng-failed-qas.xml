@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" parallel="tests">
+  <parameter name="driver.name" value="perfectoDriver"/>
+  <listeners>
+    <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="iPhone Java Suite">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Opening the applicaton and Clicking on the Xpath")||testngMethod.getMethodName().equalsIgnoreCase("Searching image location from CSV by Quantum Steps")||testngMethod.getMethodName().equalsIgnoreCase("Searching image location from CSV by Custom Steps")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="scenario.file.loc" value="src/main/resources/scenarios/differentImplementation"/>
+    <parameter name="driver.capabilities.deviceName" value="9BA07417C0FC6820A12EE8A0CAC76B767EEA35E7"/>
+    <parameter name="driver.capabilities.platformName" value="ios"/>
+    <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- iPhone Java Suite -->
+</suite> <!-- Appium Demo Suite -->

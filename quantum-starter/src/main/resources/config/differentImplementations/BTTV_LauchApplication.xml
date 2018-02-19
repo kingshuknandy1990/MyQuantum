@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
+    <listeners>
+        <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+    </listeners>
+
+    <!-- To use actual AppiumDriver classes defined    -->
+    <!-- by driverClass property in env.resources dirs -->
+    <!-- Set driver.name value to perfectoDriver       -->
+    <parameter name="driver.name" value="perfectoDriver"/>
+
+    <test name="IOS Calc Test" enabled="true">
+       
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+		<parameter name="driver.capabilities.deviceName" value="9BA07417C0FC6820A12EE8A0CAC76B767EEA35E7"/>
+        <parameter name="driver.capabilities.platformName" value="ios"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+        <groups>
+            <run>
+                <include name="@ApplicationLaunch"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>

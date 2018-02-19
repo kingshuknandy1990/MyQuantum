@@ -1,0 +1,7 @@
+homepage.tablist.btns = {\"locator\":\"//android.widget.ImageView[@class='android.widget.ImageView']\"}
+homepage.profile.icon = {\"locator\":\"//android.view.ViewGroup//android.widget.TextView[1]\"}
+homepage.profile.verifyscore = {\"locator\":\"//android.widget.TextView[contains(@text,'point')]\"}
+homepage.profile.username.lbl = {\"locator\":\"//android.widget.TextView[@instance='8']\",\"desc\":\"TextView for User9bea72 edit\"}
+homepage.profile.username.title.lbl = {\"locator\":\"id=com.jquiz.act:id/tvUserID\",\"desc\":\"TextView for User9bea72\"}
+homepage.profile.incomplete.message = {\"locator\":\"//android.widget.TextView[@instance='17']\",\"desc\":\"TextView for Took ACT English quiz Incomplete\"}
+homepage.menubar.home.btn = {\"locator\":\"//android.view.ViewGroup[@id='com.jquiz.act:id/pager_tab_strip']\"}

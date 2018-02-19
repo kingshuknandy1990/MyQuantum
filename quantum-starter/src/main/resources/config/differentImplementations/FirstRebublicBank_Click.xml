@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Other Suite" verbose="0" parallel="tests">
+    <listeners>
+        <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+    </listeners>
+
+    <!-- To use actual AppiumDriver classes defined    -->
+    <!-- by driverClass property in env.resources dirs -->
+    <!-- Set driver.name value to perfectoDriver       -->
+    <parameter name="driver.name" value="perfectoDriver"/>
+    
+    <test name="Custom Android Java Suite" enabled="true">
+        
+        <!-- <parameter name="env.resources" value="src/main/resources/android"/> -->
+        <parameter name="driver.capabilities.deviceName" value="D2D70792"/>
+        <parameter name="driver.capabilities.platformName" value="android"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="driver.capabilities.appPackage" value="com.firstrepublic.banking.np2rc2"/>
+
+        <classes>
+            <class name="com.custom.suite.FirstrebublicBank_Click"/>
+        </classes>
+    </test>
+    
+
+</suite>

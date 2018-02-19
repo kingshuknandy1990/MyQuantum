@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Appium Demo Suite]" parallel="tests">
+  <parameter name="driver.name" value="perfectoDriver"/>
+  <test name="iPhone Java Suite(failed)" parallel="tests">
+    <parameter name="driver.capabilities.deviceName" value="A66C949759EBB8175471AC2474B89B74B819EF03"/>
+    <parameter name="driver.capabilities.bundleId" value="com.gm.myChevrolet.enterprise"/>
+    <parameter name="driver.capabilities.platformName" value="ios"/>
+    <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.ios.IOSDriver"/>
+    <classes>
+      <class name="com.custom.suite.GM_Xpath_isPresent">
+        <methods>
+          <include name="case1"/>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.custom.suite.GM_Xpath_isPresent -->
+    </classes>
+  </test> <!-- iPhone Java Suite(failed) -->
+</suite> <!-- Failed suite [Appium Demo Suite] -->

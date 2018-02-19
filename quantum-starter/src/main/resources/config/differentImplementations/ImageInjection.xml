@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
+    <listeners>
+        <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+    </listeners>
+
+    <!-- To use actual AppiumDriver classes defined    -->
+    <!-- by driverClass property in env.resources dirs -->
+    <!-- Set driver.name value to perfectoDriver       -->
+    <parameter name="driver.name" value="perfectoDriver"/>
+    
+    <test name="Android Java Suite" enabled="true">
+        
+        <!-- <parameter name="env.resources" value="src/main/resources/android"/> -->
+        <parameter name="driver.capabilities.deviceName" value="AD07160320F2D57AE8"/>
+        <parameter name="driver.capabilities.platformName" value="android"/>
+        <parameter name="driver.capabilities.driverClass" value="io.appium.java_client.android.AndroidDriver"/>
+        <parameter name="driver.capabilities.appPackage" value="com.mirum.vma.video.prod"/>
+
+        <classes>
+            <class name="com.custom.suite.ImageDemoInjection"/>
+        </classes>
+    </test>
+    
+
+</suite>
