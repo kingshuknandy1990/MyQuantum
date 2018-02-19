@@ -1,0 +1,112 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.bt.internal.tve]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I wait for \"4\" seconds",
+      "args": [
+        "[4]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I Start Object Optimization",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"btn.TVChannel\"",
+      "args": [
+        "[btn.TVChannel]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I Stop Object Optimization",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I close application by id \"com.bt.internal.tve\"",
+      "args": [
+        "[com.bt.internal.tve]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.bt.internal.tve\"",
+      "type": "TestStepFail",
+      "screenshot": "img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png",
+      "duration": 1885,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.\nCommand duration or timeout: 1.80 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]\nSession ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I wait for \"4\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I Start Object Optimization",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"btn.TVChannel\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I Stop Object Optimization",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I close application by id \"com.bt.internal.tve\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.\nCommand duration or timeout: 1.80 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]\nSession ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a\r\n\tat .Given I start application by id \"com.bt.internal.tve\"(src/main/resources/scenarios/differentImplementation/BTTV_IphoneDeviceLaunch.feature:7)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:525)\r\n\tat com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:77)\r\n\tat com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:60)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:155)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\nCaused by: java.lang.RuntimeException: Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:530)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:611)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:55)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:120)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:79)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:48)\r\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:23)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession.lambda$execute$0(MobileDefaultSession.java:199)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n"
+}

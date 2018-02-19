@@ -1,0 +1,13 @@
+{
+  "name": "Appium Demo Suite",
+  "status": "fail",
+  "tests": [
+    "AndroidBDDSuite"
+  ],
+  "total": 7,
+  "pass": 4,
+  "fail": 1,
+  "skip": 2,
+  "startTime": 1519065885468,
+  "endTime": 1519066096646
+}

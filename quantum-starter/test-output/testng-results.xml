@@ -1,139 +1,999 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="2" failed="1" total="7" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://gm.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-14_11_22_42_20648, simpleIsVisibleCheck=true, available=false, language=English, deviceName=A66C949759EBB8175471AC2474B89B74B819EF03, deviceId=A66C949759EBB8175471AC2474B89B74B819EF03, resolution=1242x2208, platform=ANY, wifiMacAddress=40:cb:c0:33:6b:d2, manufacturer=Apple, mode=CONNECTED, password=, cradleId=BOS-A4-2-2/VIRTUAL/04, deviceSessionId=A4FF81E713AFD2D9D7F44F9D203FDA1E, osVersion=11.2, driverClass=io.appium.java_client.ios.IOSDriver, automationName=XCUITest, host=gm.perfectomobile.com, singleTestReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, inUse=true, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=iOS, firmware=11.2, rotatable=true, testGridReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, os=iOS, entityType=appium_driver, xcuitestFindOptimizations=true, allocatedTo=kingshukn@perfectomobile.com, bundleId=com.gm.myChevrolet.enterprise, serverConnector=, securityToken=, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697, webdriver.remote.sessionid=7ef60b87-96e6-472b-ab46-d67a43c19c3a, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697, windTunnelReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}] ▀▄▀▄▀]]>
+      <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}] ▀▄▀▄▀]]>
     </line>
     <line>
-      <![CDATA[▄ ▄ ▄ BEGIN STEP: sendKeys {text} into {loc} ▄ ▄ ▄]]>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
     </line>
     <line>
-      <![CDATA[▀ ▀ ▀ END STEP: sendKeys {text} into {loc} ▀ ▀ ▀]]>
+      <![CDATA[█ TEST STARTED: Opening the applicaton and Clicking on the Xpath █]]>
     </line>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Remote Vehicle' into '//*[@label='Search']'</div></div>]]>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I start application by id "com.bt.internal.tve" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I start application by id "com.bt.internal.tve" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I start application by id "com.bt.internal.tve" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.
+Command duration or timeout: 1.80 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]
+Session ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a</div></div><div  class="teststep"><span class="teststep-label">T </span>Then I wait for "4" seconds</div><div  class="teststep"><span class="teststep-label">T </span>Then I Start Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I click on "btn.TVChannel"</div><div  class="teststep"><span class="teststep-label">T </span>And I Stop Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I close application by id "com.bt.internal.tve"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I start application by id "com.bt.internal.tve" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.
+Command duration or timeout: 1.80 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]
+Session ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a</div></div><div  class="teststep"><span class="teststep-label">T </span>Then I wait for "4" seconds</div><div  class="teststep"><span class="teststep-label">T </span>Then I Start Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I click on "btn.TVChannel"</div><div  class="teststep"><span class="teststep-label">T </span>And I Stop Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I close application by id "com.bt.internal.tve"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST FAILED: Opening the applicaton and Clicking on the Xpath █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Searching image location from CSV by Custom Steps [{imageId=imagePath1, imagePath=PUBLIC:KingshukOther/Gallery.png}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${imagePath}" image in the Home Screen ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "PUBLIC:KingshukOther/Gallery.png" image in the Home Screen ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Gallery.png" image in the Home Screen</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Gallery.png" image in the Home Screen</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST PASSED: Searching image location from CSV by Custom Steps [{imageId=imagePath1, imagePath=PUBLIC:KingshukOther/Gallery.png}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Searching image location from CSV by Custom Steps [{imageId=imagePath2, imagePath=PUBLIC:KingshukOther/Camera.png}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${imagePath}" image in the Home Screen ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "PUBLIC:KingshukOther/Camera.png" image in the Home Screen ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Camera.png" image in the Home Screen</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Camera.png" image in the Home Screen</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST PASSED: Searching image location from CSV by Custom Steps [{imageId=imagePath2, imagePath=PUBLIC:KingshukOther/Camera.png}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Searching image location from CSV by Quantum Steps [{imageId=imagePath1, imagePath=PUBLIC:KingshukOther/Gallery.png}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I wait "5" seconds to see the image "${imagePath}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Gallery.png" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Gallery.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Gallery.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Gallery.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Gallery.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Searching image location from CSV by Quantum Steps [{imageId=imagePath2, imagePath=PUBLIC:KingshukOther/Camera.png}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I wait "5" seconds to see the image "${imagePath}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Camera.png" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Camera.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Camera.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true"</div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Camera.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Camera.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true"</div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Getting Data from Excel [{password=345, username=kuheli.nandy}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given Checker ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given Checker ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${username}" and "${password}" values comming from Excel ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "kuheli.nandy" and "345" values comming from Excel ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "kuheli.nandy" and "345" values comming from Excel</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "kuheli.nandy" and "345" values comming from Excel</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST PASSED: Getting Data from Excel [{password=345, username=kuheli.nandy}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Getting Data from Excel [{password=434343, username=krishanu.nandy}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given Checker ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given Checker ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${username}" and "${password}" values comming from Excel ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "krishanu.nandy" and "434343" values comming from Excel ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "krishanu.nandy" and "434343" values comming from Excel</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "krishanu.nandy" and "434343" values comming from Excel</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST PASSED: Getting Data from Excel [{password=434343, username=krishanu.nandy}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
     </line>
   </reporter-output>
-  <suite name="Appium Demo Suite" duration-ms="81221" started-at="2018-02-14T12:22:00Z" finished-at="2018-02-14T12:23:22Z">
+  <suite name="Appium Demo Suite" duration-ms="210779" started-at="2018-02-19T18:44:45Z" finished-at="2018-02-19T18:48:16Z">
     <groups>
+      <group name="@Native">
+        <method signature="src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="Searching image location from CSV by Custom Steps" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+        <method signature="src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]" name="Searching image location from CSV by Quantum Steps" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- @Native -->
+      <group name="@WebDDExcel">
+        <method signature="src.main.resources.scenarios.differentImplementation.webSearch.feature.Getting Data from Excel( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" name="Getting Data from Excel" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- @WebDDExcel -->
+      <group name="@ApplicationLaunch">
+        <method signature="src.main.resources.scenarios.differentImplementation.BTTV_IphoneDeviceLaunch.feature.Opening the applicaton and Clicking on the Xpath()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Opening the applicaton and Clicking on the Xpath" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @ApplicationLaunch -->
+      <group name="@NativeDDcsv">
+        <method signature="src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="Searching image location from CSV by Custom Steps" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+        <method signature="src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]" name="Searching image location from CSV by Quantum Steps" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- @NativeDDcsv -->
     </groups>
-    <test name="iPhone Java Suite" duration-ms="81221" started-at="2018-02-14T12:22:00Z" finished-at="2018-02-14T12:23:22Z">
-      <class name="com.custom.suite.GM_Xpath_isPresent">
-        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="setupSuit" is-config="true" duration-ms="16" started-at="2018-02-14T17:52:00Z" finished-at="2018-02-14T17:52:00Z">
+    <test name="Android BDD Suite" duration-ms="210779" started-at="2018-02-19T18:44:45Z" finished-at="2018-02-19T18:48:16Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="setupSuit" is-config="true" duration-ms="55" started-at="2018-02-20T00:14:45Z" finished-at="2018-02-20T00:14:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuit -->
-        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="setupTest" is-config="true" duration-ms="16" started-at="2018-02-14T17:52:00Z" finished-at="2018-02-14T17:52:00Z">
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="setupTest" is-config="true" duration-ms="6" started-at="2018-02-20T00:14:45Z" finished-at="2018-02-20T00:14:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T17:52:00Z" finished-at="2018-02-14T17:52:00Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="setup" is-config="true" duration-ms="1" started-at="2018-02-20T00:14:45Z" finished-at="2018-02-20T00:14:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-02-14T17:52:01Z" finished-at="2018-02-14T17:52:01Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-20T00:14:45Z" finished-at="2018-02-20T00:14:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.custom.suite.GM_Xpath_isPresent.case1() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="case1()[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="case1" duration-ms="49317" started-at="2018-02-14T17:52:01Z" finished-at="2018-02-14T17:52:50Z">
+        <test-method status="FAIL" signature="Opening the applicaton and Clicking on the Xpath()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="Opening the applicaton and Clicking on the Xpath" duration-ms="32225" started-at="2018-02-20T00:14:45Z" finished-at="2018-02-20T00:15:17Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.
+Command duration or timeout: 1.80 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]
+Session ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.
+Command duration or timeout: 1.80 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]
+Session ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a
+	at .Given I start application by id "com.bt.internal.tve"(src/main/resources/scenarios/differentImplementation/BTTV_IphoneDeviceLaunch.feature:7)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:525)
+	at com.quantum.utils.DeviceUtils.startApp(DeviceUtils.java:77)
+	at com.quantum.steps.PerfectoApplicationSteps.startAppById(PerfectoApplicationSteps.java:60)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:155)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.
+	at com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)
+	at com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:530)
+	at com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)
+	at com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)
+	at com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:611)
+	at com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:55)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:120)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:79)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:48)
+	at com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession.lambda$execute$0(MobileDefaultSession.java:199)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
             <line>
-              <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://gm.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-14_11_22_42_20648, simpleIsVisibleCheck=true, available=false, language=English, deviceName=A66C949759EBB8175471AC2474B89B74B819EF03, deviceId=A66C949759EBB8175471AC2474B89B74B819EF03, resolution=1242x2208, platform=ANY, wifiMacAddress=40:cb:c0:33:6b:d2, manufacturer=Apple, mode=CONNECTED, password=, cradleId=BOS-A4-2-2/VIRTUAL/04, deviceSessionId=A4FF81E713AFD2D9D7F44F9D203FDA1E, osVersion=11.2, driverClass=io.appium.java_client.ios.IOSDriver, automationName=XCUITest, host=gm.perfectomobile.com, singleTestReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, inUse=true, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=iOS, firmware=11.2, rotatable=true, testGridReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, os=iOS, entityType=appium_driver, xcuitestFindOptimizations=true, allocatedTo=kingshukn@perfectomobile.com, bundleId=com.gm.myChevrolet.enterprise, serverConnector=, securityToken=, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697, webdriver.remote.sessionid=7ef60b87-96e6-472b-ab46-d67a43c19c3a, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697, windTunnelReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}] ▀▄▀▄▀]]>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I start application by id "com.bt.internal.tve" ▄ ▄ ▄]]>
             </line>
             <line>
-              <![CDATA[▄ ▄ ▄ BEGIN STEP: sendKeys {text} into {loc} ▄ ▄ ▄]]>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I start application by id "com.bt.internal.tve" ▀ ▀ ▀]]>
             </line>
             <line>
-              <![CDATA[▀ ▀ ▀ END STEP: sendKeys {text} into {loc} ▀ ▀ ▀]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I start application by id "com.bt.internal.tve" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.
+Command duration or timeout: 1.80 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]
+Session ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a</div></div><div  class="teststep"><span class="teststep-label">T </span>Then I wait for "4" seconds</div><div  class="teststep"><span class="teststep-label">T </span>Then I Start Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I click on "btn.TVChannel"</div><div  class="teststep"><span class="teststep-label">T </span>And I Stop Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I close application by id "com.bt.internal.tve"</div></div>]]>
             </line>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Remote Vehicle' into '//*[@label='Search']'</div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I start application by id "com.bt.internal.tve" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Failed to execute command application open: application-start command failed. Reason: handset server: cannot execute command. Cannot find identifier.
+Command duration or timeout: 1.80 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL12348', ip: '192.168.2.7', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-19_18_38_54_3622, available=false, language=English, deviceName=9885F341563741424B, deviceId=9885F341563741424B, resolution=1440x2560, mode=CONNECTED, password=, cradleId=SYD-L15O2-04/VIRTUAL/01, deviceSessionId=B48C81246268F6DC17107435C8504FDB, driverClass=io.appium.java_client.android.AndroidDriver, automationName=XCUITest, host=demo.perfectomobile.com, javascriptEnabled=true, model=Galaxy S7, rotatable=true, entityType=remote_web_driver, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, phoneNumber=+61498012969, webdriver.remote.sessionid=f22616c5-e4f6-4cd9-9ca4-28144ff2af9a, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=Available, operatorCode=50501, operatorName=Telstra, platform=ANY, wifiMacAddress=ac:5f:3e:66:0c:6f, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, inUse=true, takesScreenshot=true, platformName=Android, firmware=heroltexx-user 6.0.1 MMB29K G930FXXU1BPJG release-keys, testGridReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, os=Android, allocatedTo=kingshukn@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=APAC-AUS-SYD, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624, operatorCountry=Australia, windTunnelReportUrl=https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180, user=}]
+Session ID: f22616c5-e4f6-4cd9-9ca4-28144ff2af9a</div></div><div  class="teststep"><span class="teststep-label">T </span>Then I wait for "4" seconds</div><div  class="teststep"><span class="teststep-label">T </span>Then I Start Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I click on "btn.TVChannel"</div><div  class="teststep"><span class="teststep-label">T </span>And I Stop Object Optimization</div><div  class="teststep"><span class="teststep-label">T </span>Then I close application by id "com.bt.internal.tve"</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST FAILED: Opening the applicaton and Clicking on the Xpath █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
             </line>
           </reporter-output>
-        </test-method> <!-- case1 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-14T17:52:50Z" finished-at="2018-02-14T17:52:50Z">
+        </test-method> <!-- Opening the applicaton and Clicking on the Xpath -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-20T00:15:41Z" finished-at="2018-02-20T00:15:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=case1 status=SUCCESS method=GM_Xpath_isPresent.case1()[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e] output=▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://gm.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, eclipseExecutionId=kingshukn@perfectomobile.com_Eclipse_18-02-14_11_22_42_20648, simpleIsVisibleCheck=true, available=false, language=English, deviceName=A66C949759EBB8175471AC2474B89B74B819EF03, deviceId=A66C949759EBB8175471AC2474B89B74B819EF03, resolution=1242x2208, platform=ANY, wifiMacAddress=40:cb:c0:33:6b:d2, manufacturer=Apple, mode=CONNECTED, password=, cradleId=BOS-A4-2-2/VIRTUAL/04, deviceSessionId=A4FF81E713AFD2D9D7F44F9D203FDA1E, osVersion=11.2, driverClass=io.appium.java_client.ios.IOSDriver, automationName=XCUITest, host=gm.perfectomobile.com, singleTestReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, inUse=true, takesScreenshot=true, javascriptEnabled=true, model=iPhone-8 Plus, platformName=iOS, firmware=11.2, rotatable=true, testGridReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, os=iOS, entityType=appium_driver, xcuitestFindOptimizations=true, allocatedTo=kingshukn@perfectomobile.com, bundleId=com.gm.myChevrolet.enterprise, serverConnector=, securityToken=, executionId=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697, webdriver.remote.sessionid=7ef60b87-96e6-472b-ab46-d67a43c19c3a, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, linkType=lab, reportKey=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697, windTunnelReportUrl=https://gm.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-14_12_22_06_20697&_timestamp[0]=1518610926431, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}] ▀▄▀▄▀]]]>
+                <![CDATA[[TestResult name=Opening the applicaton and Clicking on the Xpath status=FAILURE method=src.main.resources.scenarios.differentImplementation.BTTV_IphoneDeviceLaunch.feature.Opening the applicaton and Clicking on the Xpath()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=▄ ▄ ▄ BEGIN STEP: Given I start application by id "com.bt.internal.tve" ▄ ▄ ▄]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-02-14T17:52:50Z" finished-at="2018-02-14T17:52:50Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="afterClass" is-config="true" duration-ms="0" started-at="2018-02-20T00:15:41Z" finished-at="2018-02-20T00:15:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="afterTest" is-config="true" duration-ms="31838" started-at="2018-02-14T17:52:50Z" finished-at="2018-02-14T17:53:22Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="afterTest" is-config="true" duration-ms="7724" started-at="2018-02-20T00:18:08Z" finished-at="2018-02-20T00:18:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.custom.suite.GM_Xpath_isPresent@7ce3cb8e]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-02-14T17:53:22Z" finished-at="2018-02-14T17:53:22Z">
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Opening the applicaton and Clicking on the Xpath" name="afterSuit" is-config="true" duration-ms="3" started-at="2018-02-20T00:18:16Z" finished-at="2018-02-20T00:18:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7586beff]]>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->
-      </class> <!-- com.custom.suite.GM_Xpath_isPresent -->
-    </test> <!-- iPhone Java Suite -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Custom Steps" name="setup" is-config="true" duration-ms="1" started-at="2018-02-20T00:15:41Z" finished-at="2018-02-20T00:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Custom Steps" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-02-20T00:15:41Z" finished-at="2018-02-20T00:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Searching image location from CSV by Custom Steps" name="Searching image location from CSV by Custom Steps" duration-ms="42740" started-at="2018-02-20T00:15:41Z" data-provider="scenariodp" finished-at="2018-02-20T00:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{imageId=imagePath1, imagePath=PUBLIC:KingshukOther/Gallery.png}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${imagePath}" image in the Home Screen ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "PUBLIC:KingshukOther/Gallery.png" image in the Home Screen ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Gallery.png" image in the Home Screen</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Gallery.png" image in the Home Screen</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST PASSED: Searching image location from CSV by Custom Steps [{imageId=imagePath1, imagePath=PUBLIC:KingshukOther/Gallery.png}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Searching image location from CSV by Custom Steps -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Custom Steps" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-02-20T00:16:24Z" finished-at="2018-02-20T00:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searching image location from CSV by Custom Steps status=SUCCESS method=src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9] output=▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Custom Steps" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-20T00:16:24Z" finished-at="2018-02-20T00:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Searching image location from CSV by Custom Steps" name="Searching image location from CSV by Custom Steps" duration-ms="42217" started-at="2018-02-20T00:16:24Z" data-provider="scenariodp" finished-at="2018-02-20T00:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{imageId=imagePath2, imagePath=PUBLIC:KingshukOther/Camera.png}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${imagePath}" image in the Home Screen ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "PUBLIC:KingshukOther/Camera.png" image in the Home Screen ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Camera.png" image in the Home Screen</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "PUBLIC:KingshukOther/Camera.png" image in the Home Screen</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST PASSED: Searching image location from CSV by Custom Steps [{imageId=imagePath2, imagePath=PUBLIC:KingshukOther/Camera.png}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Searching image location from CSV by Custom Steps -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Custom Steps" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-02-20T00:17:06Z" finished-at="2018-02-20T00:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searching image location from CSV by Custom Steps status=SUCCESS method=src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9] output=▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Custom Steps" name="afterClass" is-config="true" duration-ms="2" started-at="2018-02-20T00:17:06Z" finished-at="2018-02-20T00:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Quantum Steps" name="setup" is-config="true" duration-ms="2" started-at="2018-02-20T00:17:06Z" finished-at="2018-02-20T00:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Quantum Steps" name="setupMethod" is-config="true" duration-ms="2" started-at="2018-02-20T00:17:06Z" finished-at="2018-02-20T00:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]" test-instance-name="Searching image location from CSV by Quantum Steps" name="Searching image location from CSV by Quantum Steps" duration-ms="28804" started-at="2018-02-20T00:17:06Z" data-provider="scenariodp" finished-at="2018-02-20T00:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{imageId=imagePath1, imagePath=PUBLIC:KingshukOther/Gallery.png}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.qmetry.qaf.automation.step.StepNotFoundException">
+            <message>
+              <![CDATA[Then I take a screenshot@src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature#18 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepNotFoundException: Then I take a screenshot@src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature#18 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.
+	at .Then I take a screenshot(src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I wait "5" seconds to see the image "${imagePath}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Gallery.png" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Gallery.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Gallery.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Gallery.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Gallery.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true" <a href="img/Opening the applicaton and Clicking on the Xpath_4cu1l8qxi69z15350.png" target="_blank">[View Screenshot]</a> </div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Searching image location from CSV by Quantum Steps -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Quantum Steps" name="afterMethod" is-config="true" duration-ms="3" started-at="2018-02-20T00:17:35Z" finished-at="2018-02-20T00:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searching image location from CSV by Quantum Steps status=SKIP method=src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea] output=▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Quantum Steps" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-20T00:17:35Z" finished-at="2018-02-20T00:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]" test-instance-name="Searching image location from CSV by Quantum Steps" name="Searching image location from CSV by Quantum Steps" duration-ms="29412" started-at="2018-02-20T00:17:35Z" data-provider="scenariodp" finished-at="2018-02-20T00:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{imageId=imagePath2, imagePath=PUBLIC:KingshukOther/Camera.png}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.qmetry.qaf.automation.step.StepNotFoundException">
+            <message>
+              <![CDATA[Then I take a screenshot@src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature#18 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.step.StepNotFoundException: Then I take a screenshot@src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature#18 TestStep implementation not found. 
+ Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.
+	at .Then I take a screenshot(src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.step.StepNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I go to the device home screen ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I wait "5" seconds to see the image "${imagePath}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Camera.png" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Camera.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Camera.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true"</div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I go to the device home screen</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I wait "5" seconds to see the image "PUBLIC:KingshukOther/Camera.png"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Image: "PUBLIC:KingshukOther/Camera.png" should be visible after 5seconds
+Expected: "true"
+     Actual: was "true"</div></div><div  class="warn"><span class="warn-label">W </span>Then I take a screenshot :: Not Found.</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Searching image location from CSV by Quantum Steps -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Quantum Steps" name="afterClass" is-config="true" duration-ms="0" started-at="2018-02-20T00:18:05Z" finished-at="2018-02-20T00:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Searching image location from CSV by Quantum Steps" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-20T00:18:05Z" finished-at="2018-02-20T00:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Searching image location from CSV by Quantum Steps status=SKIP method=src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea] output=▄ ▄ ▄ BEGIN STEP: Given I go to the device home screen ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="setup" is-config="true" duration-ms="0" started-at="2018-02-20T00:18:05Z" finished-at="2018-02-20T00:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-02-20T00:18:05Z" finished-at="2018-02-20T00:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Getting Data from Excel( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="Getting Data from Excel" duration-ms="1901" started-at="2018-02-20T00:18:05Z" data-provider="scenariodp" finished-at="2018-02-20T00:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=345, username=kuheli.nandy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given Checker ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given Checker ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${username}" and "${password}" values comming from Excel ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "kuheli.nandy" and "345" values comming from Excel ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "kuheli.nandy" and "345" values comming from Excel</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "kuheli.nandy" and "345" values comming from Excel</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST PASSED: Getting Data from Excel [{password=345, username=kuheli.nandy}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Getting Data from Excel -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="afterMethod" is-config="true" duration-ms="4" started-at="2018-02-20T00:18:07Z" finished-at="2018-02-20T00:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Getting Data from Excel status=SUCCESS method=src.main.resources.scenarios.differentImplementation.webSearch.feature.Getting Data from Excel( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb] output=▄ ▄ ▄ BEGIN STEP: Given Checker ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-20T00:18:07Z" finished-at="2018-02-20T00:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Getting Data from Excel( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="Getting Data from Excel" duration-ms="726" started-at="2018-02-20T00:18:07Z" data-provider="scenariodp" finished-at="2018-02-20T00:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=434343, username=krishanu.nandy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given Checker ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given Checker ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I verify the "${username}" and "${password}" values comming from Excel ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I verify the "krishanu.nandy" and "434343" values comming from Excel ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "krishanu.nandy" and "434343" values comming from Excel</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Checker</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I verify the "krishanu.nandy" and "434343" values comming from Excel</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com?externalId%5B0%5D=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp%5B0%5D=1519065911180 ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST PASSED: Getting Data from Excel [{password=434343, username=krishanu.nandy}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Getting Data from Excel -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-20T00:18:08Z" finished-at="2018-02-20T00:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Getting Data from Excel status=SUCCESS method=src.main.resources.scenarios.differentImplementation.webSearch.feature.Getting Data from Excel( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb] output=▄ ▄ ▄ BEGIN STEP: Given Checker ▄ ▄ ▄]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Getting Data from Excel" name="afterClass" is-config="true" duration-ms="0" started-at="2018-02-20T00:18:08Z" finished-at="2018-02-20T00:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df3b89c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- Android BDD Suite -->
   </suite> <!-- Appium Demo Suite -->
 </testng-results>

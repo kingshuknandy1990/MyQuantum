@@ -1,0 +1,38 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.goToHomeScreen",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "imageVerifyHomeScreen",
+      "args": [
+        "[PUBLIC:KingshukOther/Gallery.png]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I go to the device home screen",
+      "type": "TestStepPass",
+      "duration": 14034,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I verify the \"PUBLIC:KingshukOther/Gallery.png\" image in the Home Screen",
+      "type": "TestStepPass",
+      "duration": 27768,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.goToHomeScreen",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitForImg",
+      "args": [
+        "[5, PUBLIC:KingshukOther/Camera.png]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentContextHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "WEBVIEW_1",
+          "subLogs": [],
+          "duration": 219
+        },
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=VISUAL}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 223
+        },
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=WEBVIEW_1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 252
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I take a screenshot",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I go to the device home screen",
+      "type": "TestStepPass",
+      "duration": 14733,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I wait \"5\" seconds to see the image \"PUBLIC:KingshukOther/Camera.png\"",
+      "type": "TestStepPass",
+      "duration": 13410,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Image: \"PUBLIC:KingshukOther/Camera.png\" should be visible after 5seconds\nExpected: \"true\"\n     Actual: was \"true\"",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I take a screenshot :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then I take a screenshot@src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature#18 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Then I take a screenshot(src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature:18)\r\n"
+}

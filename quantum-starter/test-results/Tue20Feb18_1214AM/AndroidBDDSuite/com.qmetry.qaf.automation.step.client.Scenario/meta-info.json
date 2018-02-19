@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@ApplicationLaunch",
+          "@ApplicationLaunch"
+        ],
+        "lineNo": 6,
+        "name": "Opening the applicaton and Clicking on the Xpath",
+        "referece": "src/main/resources/scenarios/differentImplementation/BTTV_IphoneDeviceLaunch.feature",
+        "sign": "src.main.resources.scenarios.differentImplementation.BTTV_IphoneDeviceLaunch.feature.Opening the applicaton and Clicking on the Xpath()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519065885749,
+      "duration": 32225,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

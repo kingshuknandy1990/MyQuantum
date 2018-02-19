@@ -2,6 +2,11 @@
   "reports": [
     {
       "name": "Appium Demo Suite",
+      "dir": "test-results/Tue20Feb18_1214AM",
+      "startTime": 1519065885468
+    },
+    {
+      "name": "Appium Demo Suite",
       "dir": "test-results/Wed14Feb18_0552PM",
       "startTime": 1518610920786
     },

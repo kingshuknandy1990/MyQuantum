@@ -1,0 +1,173 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "imageId": "imagePath1",
+          "imagePath": "PUBLIC:KingshukOther/Gallery.png"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/imageList.csv",
+        "description": "",
+        "groups": [
+          "@NativeDDcsv",
+          "@Native"
+        ],
+        "lineNo": 6.0,
+        "name": "Searching image location from CSV by Custom Steps",
+        "referece": "src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature",
+        "sign": "src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1519065941304,
+      "duration": 42740,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "imageId": "imagePath2",
+          "imagePath": "PUBLIC:KingshukOther/Camera.png"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/imageList.csv",
+        "description": "",
+        "groups": [
+          "@NativeDDcsv",
+          "@Native"
+        ],
+        "lineNo": 6.0,
+        "name": "Searching image location from CSV by Custom Steps",
+        "Perfecto-report": "<a href=\"https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature",
+        "resultFileName": "Searching image location from CSV by Custom StepsrWuAdSVURt",
+        "sign": "src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Custom Steps( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1519065984341,
+      "duration": 42217,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "imageId": "imagePath1",
+          "imagePath": "PUBLIC:KingshukOther/Gallery.png"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/imageList.csv",
+        "description": "",
+        "groups": [
+          "@NativeDDcsv",
+          "@Native"
+        ],
+        "lineNo": 15.0,
+        "name": "Searching image location from CSV by Quantum Steps",
+        "referece": "src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature",
+        "sign": "src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1519066026880,
+      "duration": 28804,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "imageId": "imagePath2",
+          "imagePath": "PUBLIC:KingshukOther/Camera.png"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/imageList.csv",
+        "description": "",
+        "groups": [
+          "@NativeDDcsv",
+          "@Native"
+        ],
+        "lineNo": 15.0,
+        "name": "Searching image location from CSV by Quantum Steps",
+        "referece": "src/main/resources/scenarios/differentImplementation/imageVerificationOCR.feature",
+        "resultFileName": "Searching image location from CSV by Quantum StepsqRpjlfdgTu",
+        "sign": "src.main.resources.scenarios.differentImplementation.imageVerificationOCR.feature.Searching image location from CSV by Quantum Steps( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1519066055760,
+      "duration": 29412,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "password": "345",
+          "username": "kuheli.nandy"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@WebDDExcel",
+          "@WebDDExcel"
+        ],
+        "lineNo": 6.0,
+        "name": "Getting Data from Excel",
+        "referece": "src/main/resources/scenarios/differentImplementation/webSearch.feature",
+        "sheetName": "loginSheet",
+        "sign": "src.main.resources.scenarios.differentImplementation.webSearch.feature.Getting Data from Excel( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1519066085542,
+      "duration": 1901,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "password": "434343",
+          "username": "krishanu.nandy"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@WebDDExcel",
+          "@WebDDExcel"
+        ],
+        "lineNo": 6,
+        "name": "Getting Data from Excel",
+        "Perfecto-report": "<a href=\"https://demo.reporting.perfectomobile.com?externalId[0]=kingshukn@perfectomobile.com_RemoteWebDriver_18-02-19_18_45_11_3624&_timestamp[0]=1519065911180\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/differentImplementation/webSearch.feature",
+        "resultFileName": "Getting Data from ExceluliTWnCgnE",
+        "sheetName": "loginSheet",
+        "sign": "src.main.resources.scenarios.differentImplementation.webSearch.feature.Getting Data from Excel( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1519066087736,
+      "duration": 726,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

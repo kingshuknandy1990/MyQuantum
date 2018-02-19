@@ -1,0 +1,38 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Checker",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "passingDataFromExcel",
+      "args": [
+        "[krishanu.nandy, 434343]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Checker",
+      "type": "TestStepPass",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I verify the \"krishanu.nandy\" and \"434343\" values comming from Excel",
+      "type": "TestStepPass",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}
